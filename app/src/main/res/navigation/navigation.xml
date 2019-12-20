@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/roversList">
+
+    <fragment
+        android:id="@+id/roversList"
+        android:name="com.example.martian.rover_list.ui.RoversListFragment"
+        android:label="RoversList" >
+        <action
+            android:id="@+id/action_roversList_to_roverPhotos"
+            app:destination="@id/roverPhotos" />
+    </fragment>
+    <fragment
+        android:id="@+id/roverPhotos"
+        android:name="com.example.martian.rover_photos.ui.RoverPhotosFragment"
+        android:label="fragment_rover_photos"
+        tools:layout="@layout/fragment_rover_photos" >
+        <argument
+            android:name="roverName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_roverPhotos_to_photoFragment"
+            app:destination="@id/photoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoFragment"
+        android:name="com.example.martian.photo.PhotoFragment"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" >
+        <argument
+            android:name="photoId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

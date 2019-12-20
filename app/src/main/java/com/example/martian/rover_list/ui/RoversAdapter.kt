@@ -59,7 +59,7 @@ class RoversAdapter(val width: Int) : ListAdapter<RoverModel, RoversAdapter.View
                 executePendingBindings()
             }
 
-            var image = "https://www.papercraftsquare.com/wp-content/uploads/2016/09/Spirit-Robotic-Rover-Paper-Model.jpg"
+            var image = "https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/sn-curiosity.jpg?itok=ok6vgedp"
             if(item.id == 5) {
                 image = "https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/sn-curiosity.jpg?itok=ok6vgedp"
             } else if(item.id == 6) {

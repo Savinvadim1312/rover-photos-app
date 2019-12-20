@@ -25,7 +25,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Users/vadim/Uni/Gent/Android/Martian/app/src/debug/java;/Users/vadim/Uni/Gent/Android/Martian/app/src/release/kotlin;/Users/vadim/Uni/Gent/Android/Martian/app/src/release/java;/Users/vadim/Uni/Gent/Android/Martian/app/src/debugAndroidTest/kotlin;/Users/vadim/Uni/Gent/Android/Martian/app/src/debugUnitTest/kotlin;/Users/vadim/Uni/Gent/Android/Martian/app/src/releaseUnitTest/kotlin">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/debug/kotlin;/Users/vadim/Uni/Gent/Android/Martian/rover-photos-app/app/src/debug/java;/Users/vadim/Uni/Gent/Android/Martian/rover-photos-app/app/src/release/kotlin;/Users/vadim/Uni/Gent/Android/Martian/rover-photos-app/app/src/release/java;/Users/vadim/Uni/Gent/Android/Martian/rover-photos-app/app/src/debugAndroidTest/kotlin;/Users/vadim/Uni/Gent/Android/Martian/rover-photos-app/app/src/debugUnitTest/kotlin;/Users/vadim/Uni/Gent/Android/Martian/rover-photos-app/app/src/releaseUnitTest/kotlin">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
